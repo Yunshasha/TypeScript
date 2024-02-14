@@ -8,7 +8,7 @@ npm i -g typescript
 tsc -v
 
 ### compiler .ts file to .js file
-tsc .ts
+```tsc .ts```
 
 ### a package combine compiler and excute
 npm i -g ts-node
