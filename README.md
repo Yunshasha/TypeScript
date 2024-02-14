@@ -7,10 +7,10 @@ npm i -g typescript
 ### check the installation
 tsc -v
 
-### complier .ts file to .js file
+### compiler .ts file to .js file
 tsc .ts
 
-### a package combine complier and excute
+### a package combine compiler and excute
 npm i -g ts-node
 
 ### run .ts file
