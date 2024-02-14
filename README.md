@@ -1,6 +1,7 @@
 # TypeScript
 TypeScript study handbook
 
+<br />
 ### install
 ```npm i -g typescript```
 
@@ -18,7 +19,7 @@ TypeScript study handbook
 
 <br />
 <br />
-<br />
+
 
 > [!IMPORTANT]
 > ### types
