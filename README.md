@@ -16,7 +16,7 @@ TypeScript study handbook
 ### run .ts file
 ```ts-node .tx```
 
-&nbsp
+<br />
 
 > [!IMPORTANT]
 > ### types
