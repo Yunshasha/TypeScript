@@ -21,3 +21,20 @@ const pd: PointDetail = {
   y: 2,
   z: 3,
 };
+
+//__________________________________________
+//difference btw extends and intersection
+//extends, if 2 interface have the same varible names, type error
+interface A {
+  fn: (value: string) => void;
+}
+// interface B extends A {
+//   fn: (value: number) => void;
+// }
+
+//intersection
+interface B {
+  fn: (value: number) => void;
+}
+type C = A & B;
+// as union type---C { fn : (value :string | number) => void}
