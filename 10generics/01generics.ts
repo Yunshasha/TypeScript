@@ -7,3 +7,9 @@ function id<Type>(value: Type): Type {
 //invoke function, define the type, check the function type
 const num = id<number>(10);
 const str = id<string>(`i'm string`);
+
+//_____________________________---
+//simplify invoke
+
+let simplfy = id(false);
+simplfy = true;
